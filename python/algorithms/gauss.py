@@ -1,5 +1,4 @@
-def is_wrong(num):
-    num = int(num)
+def is_wrong(num: int) -> bool:
     return len({
         int(num / 100),
         int((int(num % 100)) / 10), 
