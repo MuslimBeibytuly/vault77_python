@@ -1,5 +1,4 @@
 def merge_sort(some_list: list) -> list:
-    print(some_list)
     if len(some_list) > 1:
         mid: int = len(some_list) // 2
         left = some_list[:mid]

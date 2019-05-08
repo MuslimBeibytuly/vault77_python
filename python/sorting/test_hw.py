@@ -10,7 +10,7 @@ def test_apply_transactions():
         {'user2': -100}
     ]
     result = apply_transactions(
-        balance=balance,
+        balance=balance, 
         transactions=transactions
     )
     expected = {'user1': 140, 'user2': 360}
