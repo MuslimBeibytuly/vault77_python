@@ -1,4 +1,3 @@
-import my_math
-from my_math import pow
+from lol_math.my_math import pow
 
-print(my_math.pow(5, 2))
+print(pow(5, 2))
