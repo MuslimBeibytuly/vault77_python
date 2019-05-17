@@ -1,0 +1,2 @@
+How many principles does OOP have?|2|6|4|8|2
+2+2=?|2|6|4|8|0
