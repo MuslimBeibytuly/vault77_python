@@ -1,0 +1,18 @@
+{
+    "questions": [
+        {
+            "text": "How many principles does OOP have?",
+            "variants": [
+                "2", "4", "6", "8", "10", "100"
+            ],
+            "right": 1
+        },
+        {
+            "text": "2 + 2?",
+            "variants": [
+                "2", "4", "6", "8"
+            ],
+            "right": 1
+        }
+    ]
+}

@@ -26,8 +26,10 @@ class Worker(Human):
         print(f'I\'m {self.name} and I\'m working')
 
 class Student(Human):
-    def sleep(seнаследованиеlf):
-        print(f'наследованиеI\'m {self.name} and I sleep 5 hours a day')
+    def sleep(self):
+        print(
+            f'I\'m {self.name} and I sleep 5 hours a day'
+        )
 
 class Button:
     def __render(self):
@@ -44,8 +46,21 @@ if __name__ == '__main__':
     human3.eat()
     human3.sleep()
 
-# encapsulation - сокрытие данных
+# encapsulation - сокрытие данных и методов
 # abstraction - высокоуровневые абстракции
-# polymorphism - множественная реализация
-# inheritance - наследование
-# DRY - don't repeat yourself
+# polymorphism - множественная реализация и общий интерфейс
+# inheritance - наследование: DRY - don't repeat yourself
+
+
+class Car:
+    def __init__(self):
+        self._radiator = 'I\'m radiator'
+    
+    def _fill(self):
+        self._radiator = 'I\'m full radiator'
+    
+    def greet(self):
+        self._fill()
+
+# __ - don't touch
+# _ - sometimes allowed to touch
