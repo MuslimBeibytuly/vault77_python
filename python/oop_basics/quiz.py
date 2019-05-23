@@ -20,7 +20,7 @@ class Game:
     def __init__(self):
         self.__quiz = Quiz()
         self.__score = 0
-    
+
     def greeting(self):
         print('Please answer questions below')
     
