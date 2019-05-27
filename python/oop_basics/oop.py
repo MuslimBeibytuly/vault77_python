@@ -45,9 +45,8 @@ if __name__ == '__main__':
     human3 = Student('LOL', 1, 'F')
     human3.eat()
     human3.sleep()
-
-# encapsulation - сокрытие данных и методов
-# abstraction - высокоуровневые абстракции
+# encapsulation - сокрыти_fillе данных и методов
+# abstraction - высокоуро_fillвневые абстракции
 # polymorphism - множественная реализация и общий интерфейс
 # inheritance - наследование: DRY - don't repeat yourself
 
